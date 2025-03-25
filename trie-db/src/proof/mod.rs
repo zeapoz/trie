@@ -31,9 +31,9 @@
 //! pre-order traversal order, the construction can be done efficiently using a stack.
 
 pub use self::{
-	generate::generate_proof,
-	verify::{verify_proof, Error as VerifyError},
+    generate::generate_proof,
+    verify::{verify_proof, Error as VerifyError},
 };
 
 mod generate;
-mod verify;
+pub mod verify;
